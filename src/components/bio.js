@@ -54,12 +54,8 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+      <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>        
+      <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="mustafaf"><a class="LI-simple-link" href='https://www.linkedin.com/in/mustafaf?trk=profile-badge'>Mustafa Furniturewala</a></div>
       </p>
     </div>
   )
